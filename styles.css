@@ -18,14 +18,19 @@
 
 .section__container {
   max-width: var(--max-width);
-  margin: auto;
-  padding: 5rem 1rem;
+  margin: 8rem 20px;
+  padding: 10rem 1rem;
+  border-radius: 2rem;
 }
 
 .section__header {
   font-size: 2rem;
   font-weight: 600;
+<<<<<<< HEAD
   color:#333333;
+=======
+  color:#f3f4f6;
+>>>>>>> 22d12a964406ae2117b1aca544e8b4c479328b42
   text-align: center;
 }
 
@@ -44,12 +49,22 @@ body {
 }
 
 nav {
-  max-width: var(--max-width);
+  max-width: 100%;
   margin: auto;
   padding: 2rem 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(132, 132, 132, 0); /* Adjust the alpha value for transparency */
+  z-index: 1000; /* Ensure it stays on top of other elements */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+  backdrop-filter: blur(
+    10px
+  ); /* Optional: Add a blur effect for a frosted glass look */
 }
 
 .nav__logo {
@@ -78,6 +93,7 @@ nav {
 
 .header__container {
   padding: 1rem 1rem 5rem 1rem;
+  border-radius: 2rem;
 }
 
 .header__image__container {
@@ -218,6 +234,7 @@ nav {
 
 .popular__content {
   padding: 1rem;
+  background-color: #d6d7db;
 }
 
 .popular__card__header {
@@ -272,13 +289,14 @@ nav {
   padding: 2rem;
   text-align: center;
   border-radius: 2rem;
-  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 30px rgba(177, 177, 177, 0.142);
 }
 
 .reward__container p {
   margin-bottom: 1rem;
   font-weight: 600;
-  color: var(--text-light);
+  color:#ffffff;
+  border-radius: 30px;
 }
 
 .reward__container h4 {
@@ -287,7 +305,7 @@ nav {
   margin-bottom: 1rem;
   font-size: 2rem;
   font-weight: 600;
-  color: var(--text-dark);
+  color:#f3f4f6;
 }
 
 .reward__btn {
@@ -300,6 +318,8 @@ nav {
   border-radius: 1rem;
   cursor: pointer;
   transition: 0.3s;
+  box-shadow: #5c5c5cb2;
+  
 }
 
 .reward__btn:hover {
