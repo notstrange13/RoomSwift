@@ -25,7 +25,7 @@
 .section__header {
   font-size: 2rem;
   font-weight: 600;
-  color: var(--text-dark);
+  color:#333333;
   text-align: center;
 }
 
@@ -103,6 +103,7 @@ nav {
   height: 100%;
   object-fit: cover;
   z-index: -1;
+  border-radius: 10px;
 }
 
 .header__content {
@@ -230,7 +231,7 @@ nav {
 .popular__card__header h4 {
   font-size: 1.2rem;
   font-weight: 600;
-  color: var(--text-dark);
+  color:#f3f4f6;
 }
 
 .popular__content p {
